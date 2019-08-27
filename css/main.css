@@ -49,3 +49,10 @@ font-size:35px;
 color:#ffbb33;
 margin:15px;
 }
+.title1{
+font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
