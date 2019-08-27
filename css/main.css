@@ -16,3 +16,24 @@ min-height:540px;
 background:url(../image/nsu2.jpg);
 min-height:535px;
 }
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+border-color:#eee;
+margin:40px;
+padding:20px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title
+{
+font-family:'typo';
+}
