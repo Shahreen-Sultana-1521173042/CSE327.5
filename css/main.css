@@ -80,3 +80,27 @@ margin-right:20px;
 {
 color:#fff;
 }
+.footer
+{
+font-size:15px;
+text-align:center;
+border-top:1px solid;
+border-color:#323232;
+background-color:#000080;
+}
+.footer a
+{
+margin:25px;
+color:orange;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+color:#9acd32;
+border-top:2px solid;
+border-color:orange;
+
+}
