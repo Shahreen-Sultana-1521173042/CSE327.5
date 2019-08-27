@@ -37,3 +37,15 @@ font: 15px "Century Gothic", "Times Roman", sans-serif;
 {
 font-family:'typo';
 }
+.header
+{
+background:#000080;
+height:70px;
+}
+.logo
+{
+font-family:'typo';
+font-size:35px;
+color:#ffbb33;
+margin:15px;
+}
