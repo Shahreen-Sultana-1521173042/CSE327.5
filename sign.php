@@ -19,3 +19,7 @@ $college = stripslashes($college);
 $college = addslashes($college);
 $mob = stripslashes($mob);
 $mob = addslashes($mob);
+
+$password = stripslashes($password);
+$password = addslashes($password);
+$password = md5($password);
