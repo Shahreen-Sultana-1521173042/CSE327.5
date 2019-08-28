@@ -33,3 +33,9 @@ $_SESSION["name"] = $name;
 
 header("location:account.php?q=1");
 }
+else
+{
+header("location:index.php?q7=Email Already Registered!!!");
+}
+ob_end_flush();
+?>
