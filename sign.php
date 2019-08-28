@@ -25,3 +25,11 @@ $password = addslashes($password);
 $password = md5($password);
 
 $q3=mysqli_query($con,"INSERT INTO user VALUES  ('$name' , '$gender' , '$college','$email' ,'$mob', '$password')");
+if($q3)
+{
+session_start();
+$_SESSION["email"] = $email;
+$_SESSION["name"] = $name;
+
+header("location:account.php?q=1");
+}
