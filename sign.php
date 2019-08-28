@@ -23,3 +23,5 @@ $mob = addslashes($mob);
 $password = stripslashes($password);
 $password = addslashes($password);
 $password = md5($password);
+
+$q3=mysqli_query($con,"INSERT INTO user VALUES  ('$name' , '$gender' , '$college','$email' ,'$mob', '$password')");
