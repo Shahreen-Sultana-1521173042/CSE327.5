@@ -19,3 +19,6 @@
 {echo'<script>alert("'.@$_GET['w'].'");</script>';}
 ?>
 <!--alert message end-->
+<?php
+include_once 'dbConnection.php';
+?>
