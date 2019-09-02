@@ -111,5 +111,28 @@ echo '<tr style="color:#99cc32"><td>'.$c++.'</td><td>'.$title.'&nbsp;<span title
 }
 $c=0;
 echo '</table></div></div>';
-
+	
 }?>
+<!--<span id="countdown" class="timer"></span>
+<script>
+var seconds = 40;
+    function secondPassed() {
+    var minutes = Math.round((seconds - 30)/60);
+    var remainingSeconds = seconds % 60;
+    if (remainingSeconds < 10) {
+        remainingSeconds = "0" + remainingSeconds; 
+    }
+    document.getElementById('countdown').innerHTML = minutes + ":" +    remainingSeconds;
+    if (seconds == 0) {
+        clearInterval(countdownTimer);
+        document.getElementById('countdown').innerHTML = "Buzz Buzz";
+    } else {    
+        seconds--;
+    }
+    }
+var countdownTimer = setInterval('secondPassed()', 1000);
+</script>-->
+
+<!--home closed-->
+
+<!--quiz start-->
